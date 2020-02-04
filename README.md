@@ -9,6 +9,6 @@ Materiały z warsztatów "PoweR, czyli Python i R w Data Science dla początkuj�
 - [Python](https://github.com/R-Ladies-Warsaw/PoweR)
 - [R](https://github.com/R-Ladies-Warsaw/PoweR)
 
-## Część 3 - Wizualna ekploracja danych
+## Część 3 - Wizualna eksploracja danych
 - [Python](https://github.com/R-Ladies-Warsaw/PoweR)
 - [R](https://github.com/R-Ladies-Warsaw/PoweR)
