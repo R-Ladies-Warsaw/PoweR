@@ -72,10 +72,16 @@ df <- data.frame(col_1 = c(1, 2, 3), col_2 = c("raz", "dwa", "trzy"))
 
 # Operatory
 df$col_1
+df[["col"]]
 df[3, 1]
 df[ ,1]
 df[1, ]
 df[2:3, ]
+
+
+#######################
+##### # Kahoot  # #####
+#######################
 
 
 
@@ -158,6 +164,4 @@ View(seriale)
 ## Wypisz: 
 # a) nazwy seriali, ktore wyszly w 2020 roku.
 # b) Z ramki danych seriale wybierz podzbior zawierajacy Twoje 3 ulubione seriale i przypisz go do nowej zmiennej.
-
-
 
