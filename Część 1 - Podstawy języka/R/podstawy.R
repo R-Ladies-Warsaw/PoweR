@@ -1,6 +1,8 @@
 # R / RStudio
 # co jest czym w RStudio?
 
+
+
 ## Operatory +, -, *, /, ...
 2 + 2
 2 + 2 + 2 + 2
@@ -8,6 +10,8 @@
 
 ## Zadanie 1 
 # sprawdz czy R zachowuje kolejnosc dzialan. Jakiego przykladu mozna uzyc?
+
+
 
 
 ## Operator przypisania w R
@@ -96,8 +100,25 @@ if( !(8 %in% parzyste) ){
 }
 parzyste
 
+skorupa <- TRUE
+if(skorupa == TRUE){
+  "zolw"
+} else {
+  "kot"
+}
+
+ifelse(skorupa == TRUE, "zolw", "kot")
+# ifelse dziala tez na wektorze
+skorupa <- c(TRUE, TRUE, FALSE)
+ifelse(skorupa == TRUE, "zolw", "kot")
+
 ## Zadanie 3
-# Podobnie jak w powyższym przykładzie, wektor liczb nieparzystych powieksz o liczbe 7, o ile juz jej nie ma.
+# a) Podobnie jak w powyższym przykładzie, wektor liczb nieparzystych powieksz o liczbe 7, o ile juz jej nie ma.
+# b) Dany jest wektor liczb, v <- c(1,2,2,2,2,2,3,3,3,1,1,2). Uzyj
+# instrukcji if else lub ifelse, zeby zrobic z niego wektor zawierajacy
+# wartosci "jeden", "dwa", "trzy".
+
+
 
 
 ## Petle
