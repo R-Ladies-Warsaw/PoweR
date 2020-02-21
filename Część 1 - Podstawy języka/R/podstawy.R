@@ -50,7 +50,12 @@ liczby[["parzyste"]]
 # a) Stworz dwa wektory skladajace sie z 5 liczb kazdy, a nastepnie przypisz ich roznice do nowej zmiennej o nazwie roznica.
 # b) Polacz te trzy wektory w liste
 
-
+#a) 
+a <- c(1, 2, 3, 4, 5)
+b <- c(6, 7, 8, 9, 10)
+roznica <- b - a
+# b)
+lista_wektorow <- list(a, b, roznica)
 
 ## Funkcje z base
 ?min
@@ -124,7 +129,15 @@ ifelse(skorupa == TRUE, "zolw", "kot")
 # instrukcji if else lub ifelse, zeby zrobic z niego wektor zawierajacy
 # wartosci "jeden", "dwa", "trzy".
 
+# a)
+if( !(7 %in% nieparzyste) ){
+  nieparzyste <- c(nieparzyste, 7)
+}
+nieparzyste
 
+#b)
+v <- c(1,2,2,2,2,2,3,3,3,1,1,2)
+ifelse(v == 1, "jeden", ifelse(v == 2, "dwa", "trzy"))
 
 
 ## Petle
@@ -143,7 +156,10 @@ for(liczba in parzyste){
 # Uzyj petli (ktorej?), zeby iterujac po wektorze `liczby <- 1:10` stworzyc wektor 10 kolejnych liczb nieparzystych.
 # Czy jest wiecej niz jeden sposob?
 
-
+nieparzyste3 <- c()
+for(x in 1:10){
+  nieparzyste3 <- c(nieparzyste3, 2 * x - 1)  
+}
 
 
 
@@ -165,3 +181,15 @@ View(seriale)
 # a) nazwy seriali, ktore wyszly w 2020 roku.
 # b) Z ramki danych seriale wybierz podzbior zawierajacy Twoje 3 ulubione seriale i przypisz go do nowej zmiennej.
 
+# a)
+# Tworzymy wektor, ktory odpowiada kolejnym wierszom z ramki danych, jesli zawiera TRUE, to znaczy, ze serial byl 
+# wydany w 2020, jesli FALSE oznacza, ze serial byl wydany w innym roku
+ktore_w_2020 <- seriale[["release_year"]] == 2020
+# mozemy uzyc wektora TRUE/FALSE do indeksowania wierszy
+# ponizsze polecenie wybierze tylko te wiersze, w ktorych wektor ktore_w_2020 przyjal wartosc TRUE
+seriale_2020 <- seriale[ktore_w_2020, ]
+View(seriale_2020)
+
+# b)
+moje_seriale <- seriale[c(1, 2, 10), ]
+View(moje_seriale)
