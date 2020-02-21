@@ -11,6 +11,7 @@
 ## Zadanie 1 
 # sprawdz czy R zachowuje kolejnosc dzialan. Jakiego przykladu mozna uzyc?
 
+2 + 2 * 2
 
 
 
