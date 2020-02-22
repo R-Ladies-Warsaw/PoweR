@@ -3,7 +3,10 @@ Materiały z warsztatów "PoweR, czyli Python i R w Data Science dla początkuj�
 
 Część 1 - Podstawy języka R
 
-Kody z warsztatów oraz rozwiązania zadań [tutaj]()
+Kody z warsztatów oraz rozwiązania zadań [tutaj](https://github.com/R-Ladies-Warsaw/PoweR/blob/master/Cz%C4%99%C5%9B%C4%87%201%20-%20Podstawy%20j%C4%99zyka/R/podstawy.R)
+
+Cheatsheet [R](https://github.com/R-Ladies-Warsaw/PoweR/blob/master/Cz%C4%99%C5%9B%C4%87%201%20-%20Podstawy%20j%C4%99zyka/cheatSheetR.pdf)
+
 
 ## Instalacja R i RStudio
 
