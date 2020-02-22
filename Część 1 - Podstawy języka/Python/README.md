@@ -4,6 +4,9 @@ Materiały z warsztatów "PoweR, czyli Python i R w Data Science dla początkuj�
 
 Część 1 - Podstawy języka Python
 
+Kody z warsztatów [tutaj]()
+Rozwiązania zadań [tutaj]()
+
 Przed zajęciami proszę zainstalować Anaconda. Będziemy tam korzystać z Jupyter Notebook.
 
 Bardzo łatwe i fajne narzędzie, które pozwoli robić własne notatki i uruchamiać skrypty.

@@ -3,6 +3,8 @@ Materiały z warsztatów "PoweR, czyli Python i R w Data Science dla początkuj�
 
 Część 1 - Podstawy języka R
 
+Kody z warsztatów oraz rozwiązania zadań [tutaj]()
+
 ## Instalacja R i RStudio
 
 Do programowania w R przydatne będą dwie rzeczy:
