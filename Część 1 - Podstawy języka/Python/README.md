@@ -6,8 +6,6 @@ Część 1 - Podstawy języka Python
 
 Kody z warsztatów [tutaj](https://github.com/R-Ladies-Warsaw/PoweR/blob/master/Cz%C4%99%C5%9B%C4%87%201%20-%20Podstawy%20j%C4%99zyka/Python/Python%201.ipynb)
 
-Rozwiązania zadań [tutaj](https://github.com/R-Ladies-Warsaw/PoweR/blob/master/Cz%C4%99%C5%9B%C4%87%201%20-%20Podstawy%20j%C4%99zyka/Python/Tasks-for-Power.ipynb)
-
 Cheatsheet [Python](https://github.com/R-Ladies-Warsaw/PoweR/blob/master/Cz%C4%99%C5%9B%C4%87%201%20-%20Podstawy%20j%C4%99zyka/cheatSheetPython.pdf)
 
 Przed zajęciami proszę zainstalować Anaconda. Będziemy tam korzystać z Jupyter Notebook.
