@@ -14,3 +14,6 @@ Bardzo łatwe i fajne narzędzie, które pozwoli robić własne notatki i urucha
 
 Krótki przewodnik po Jupyter Notebook:
 https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46
+
+
+Rozwiązania zadań [tutaj](https://github.com/R-Ladies-Warsaw/PoweR/blob/master/Cz%C4%99%C5%9B%C4%87%201%20-%20Podstawy%20j%C4%99zyka/Python/Tasks-for-Power.ipynb)
